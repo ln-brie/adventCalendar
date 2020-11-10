@@ -1,0 +1,8 @@
+body {
+    background-image: url(img/fond.png);
+    font-family: 'Gloria Hallelujah', cursive;
+}
+main {
+    width: 80%;
+    margin: auto;
+}
