@@ -53,3 +53,25 @@ header {
     transition: border-radius 200ms linear;
     border-radius: 0.9em;
 }
+.pop{
+    position: absolute;
+    background-color: #a88d32 ;
+    animation: popup 600ms linear normal forwards;
+}
+.pop h1{
+    display: none;
+}
+.pop p{
+    font-size: larger;
+    margin: auto;
+}
+
+@keyframes popup {
+    from {
+        width: 5em;
+        height: 5em;
+    } to {
+        width: 20em;
+        height: 20em;
+    }
+}

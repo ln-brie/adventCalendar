@@ -9,10 +9,10 @@ $(document).ready(function () {
             });
         } else {
             $(this).click(function() {
-                $(this).children('p').css("display", "block");
+                $(this).children('p').css('display', 'block');
+                $(this).addClass('pop');
             })
         }
-
     })
     
 });
