@@ -5,4 +5,43 @@ body {
 main {
     width: 80%;
     margin: auto;
+    text-align: center;
+    color: white;
 }
+header {
+    color: white;
+    text-align: center;
+    font-size: 3em;
+}
+
+.ligne {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.jour p {
+    display: none;
+}
+ .jour {
+     width: 5em;
+     height: 5em;
+     background-color: rgba(255, 255, 255, 0.151);
+     margin: 0.2em;
+     padding: 0;
+     cursor: pointer;
+ }
+
+ .jour h1{
+     padding: 0;
+     margin: auto;
+ }
+
+ .ligneUn {
+     margin: auto;
+     margin-bottom: 0.2em;
+ }
+ .tronc {
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+ }
