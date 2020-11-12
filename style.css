@@ -59,20 +59,15 @@ header {
 }
 .pop{
     position: absolute;
-    top: 5.5em;
-    left: 25%;
+    top: 12em;
+    left: 30%;
     background-color: #a88d32 ;
     transition: width 600ms, height 600ms, opacity 600ms;
-    width: 50%;
-    height: 50%;
+    width: 40%;
+    max-height: 50%;
 }
 .pop h1{
     display: none;
-}
-.pop img{
-    margin: auto;
-    max-width: 100%;
-    max-height: 100%;
 }
 
 #fermer {
