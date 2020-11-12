@@ -19,6 +19,10 @@ header {
     align-items: center;
     justify-content: center;
 }
+.jour img {
+    display: none;
+}
+
 .jour p {
     display: none;
 }
@@ -55,23 +59,23 @@ header {
 }
 .pop{
     position: absolute;
+    top: 5.5em;
+    left: 25%;
     background-color: #a88d32 ;
-    animation: popup 600ms linear normal forwards;
+    transition: width 600ms, height 600ms, opacity 600ms;
+    width: 50%;
+    height: 50%;
 }
 .pop h1{
     display: none;
 }
-.pop p{
-    font-size: larger;
+.pop img{
     margin: auto;
+    max-width: 100%;
 }
 
-@keyframes popup {
-    from {
-        width: 5em;
-        height: 5em;
-    } to {
-        width: 20em;
-        height: 20em;
-    }
+#fermer {
+    position: fixed;
+    display: none;
+    cursor: pointer;
 }

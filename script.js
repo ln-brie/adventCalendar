@@ -9,10 +9,17 @@ $(document).ready(function () {
             });
         } else {
             $(this).click(function() {
-                $(this).children('p').css('display', 'block');
                 $(this).addClass('pop');
-            })
+                $(this).children('img').fadeIn(800);
+                $('#fermer').show();
+            });
+            
         }
-    })
+        $('#fermer').click(function() {
+            $('div.pop').removeClass('pop');
+            $('div.jour').children('img').hide();
+            $(this).hide();
+        });
+    });
     
 });
