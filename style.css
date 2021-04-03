@@ -63,8 +63,8 @@ header {
     left: 30%;
     background-color: #a88d32 ;
     transition: width 600ms, height 600ms, opacity 600ms;
+    image-rendering: optimizeQuality;
     width: 40%;
-    max-height: 50%;
 }
 .pop h1{
     display: none;

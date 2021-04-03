@@ -12,7 +12,6 @@ $(document).ready(function () {
                 $(this).children('img').addClass('pop').show();
                 $('#fermer').show();
             });
-            
         }
         $('#fermer').click(function() {
             $('div.jour').children('img').removeClass('pop').hide();
